@@ -1,0 +1,17 @@
+{
+  "name": "chill-hang-buses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hilarykitz/chill-hang-buses.git",
+  "author": "Hilary Kitz <hilarykitz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev",
+    "dev": "flask run",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "vercel": "^24.0.0"
+  }
+}
+
